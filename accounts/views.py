@@ -13,7 +13,7 @@ signup = CreateView.as_view(
 )
 
 login = LoginView.as_view(
-    template_name='accounts/login_form.html',
+    template_name='form.html',
 )
 
 
